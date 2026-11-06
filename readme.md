@@ -3,7 +3,7 @@
 ## Installation
 
 ```bash
-git clone https://git.git](https://github.com/yasin0300/System_detector.git
+git clone [https://git.git](https://github.com/yasin0300/System_detector.git](https://github.com/yasin0300/System_detector.git)
 cd System_detector
 cmake -S . -B build
 cmake --build build
