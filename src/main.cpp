@@ -75,7 +75,7 @@ int main()
 			std::stringstream ss(ramFreeLine);
 			std::string label;
 			ss >> label >> ramFreeKb;
-			std::cout << "Frei: " << ramFreeKb / (1024.0 * 1024.0) << " GiB\n\n";
+			std::cout << "Free: " << ramFreeKb / (1024.0 * 1024.0) << " GiB\n\n";
 			break;
 		}
 	}
@@ -93,9 +93,9 @@ int main()
 		unsigned long long available =
 			static_cast<unsigned long long>(diskInfo.f_bavail) * diskInfo.f_frsize;
 
-		std::cout << "Gesamt: " << total / (1024.0 * 1024 * 1024) << " GiB\n";
-		std::cout << "Frei: " << free / (1024.0 * 1024 * 1024) << " GiB\n";
-		std::cout << "Verfügbar: " << available / (1024.0 * 1024 * 1024) << " GiB\n";
+		std::cout << "Total: " << total / (1024.0 * 1024 * 1024) << " GiB\n";
+		std::cout << "Free: " << free / (1024.0 * 1024 * 1024) << " GiB\n";
+		std::cout << "available: " << available / (1024.0 * 1024 * 1024) << " GiB\n";
 	}
 	else
 	{
