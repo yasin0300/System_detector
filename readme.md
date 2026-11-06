@@ -3,14 +3,14 @@
 ## Installation
 
 ```bash
-git clone https://github.com/DEIN-BENUTZER/DEIN-REPO.git
+git clone https://git.git](https://github.com/yasin0300/System_detector.git
 cd DEIN-REPO
 cmake -S . -B build
 cmake --build build
 cmake --install build --prefix "$HOME/.local"
 ```
 
-## Starten
+## Start
 
 ```bash
 hardware
